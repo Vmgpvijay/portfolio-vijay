@@ -1,0 +1,45 @@
+.card-wrapper {
+  position: relative;    /* needed for overlay positioning */
+  overflow: hidden !important;      /* ensures overlay doesn’t spill out */
+  border-radius: 10px;
+  padding: 0;   /* optional rounded corners */
+}
+
+.card-wrapper img {
+  width: 100%;
+  display: block;
+}
+
+.card-wrapper .overlay {
+  position: absolute;
+  bottom: -100%;
+  left: 0;
+  width: 100%;
+  height: 70%;
+    background: linear-gradient(
+    264deg,
+    rgba(223, 137, 8, 0.4) -5.09%,
+    rgba(180, 21, 255, 0.4) 106.28%
+  );
+
+  opacity: 0;                  /* hidden by default */
+  transition: all 1s ease-in-out; /* smooth fade-in */
+  pointer-events: none;       /* so clicks go through to the image */
+}
+
+/* Show overlay on hover */
+.card-wrapper:hover .overlay {
+  bottom: 0;
+  opacity: 1;
+}
+.z-n1vworks{
+  z-index: -1;
+  /* height: auto; */
+  width: 110px;
+  top: 50%;
+  left: 48%;
+  transform: (-50%,-50%);
+}
+.heading-wrapper{
+   display: inline-block ; 
+}

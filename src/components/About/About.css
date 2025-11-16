@@ -1,0 +1,169 @@
+
+/* Gradient Skills text */
+/* .skills {
+  background: linear-gradient(264deg, #df8908 -5.09%,#b415ff 106.28%);
+  background-clip: text;
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  color: transparent;
+} */
+
+/* Paragraph */
+.skills-heading{
+  font-size: 250%;
+  padding-top: 23px ;
+  padding-left: 50px;
+}
+.skill-paragraph p {
+  font-size: 14px;
+  line-height: 1.6;
+  margin-bottom: 15px;
+  text-align: center;
+}
+
+/* Toggle Buttons Container */
+.toggle-buttons {
+  display: inline-flex;
+  justify-content: center;
+  align-items: center;
+  gap: 10px;
+  background: #f1f1f1;
+  border-radius: 50px;
+  padding: 4px 6px;
+  width: 120px; 
+  margin: auto;
+  box-shadow: inset 0 2px 5px rgba(0,0,0,0.1);
+}
+.button-skills{
+  width: 120px;
+}
+
+/* Each Toggle Button */
+.toggle-btn {
+  border: none;
+  background: transparent;
+  padding: 4px 12px;
+  border-radius: 50px;
+  font-size: 12px;
+  font-weight: 600;
+  cursor: pointer;
+  transition: all 0.3s ease;
+  text-align: center;
+  width: auto;
+ 
+}
+
+
+/* Active Button */
+.toggle-btn.active {
+  background: linear-gradient(264deg, #df8908 -5.09%,#b415ff 106.28%);
+  color: white;
+  box-shadow: 0 4px 10px rgba(0, 123, 255, 0.3);
+}
+
+/* Hover effect */
+.toggle-btn:hover {
+  color:black;
+}
+
+/* Logos Section */
+.logo-html {
+  background-color: white;
+  border-radius: 12px;
+  padding: 10px;
+  box-shadow: 0 4px 6px rgba(22,6,99,0.1);
+  transition: transform 0.3s ease;
+}
+
+.logo-html:hover {
+  transform: translateY(-5px);
+}
+
+.logo-html img {
+  width: 50px;
+  height: 50px;
+}
+
+.logo-name {
+  color: black;
+  margin: 4px 0 2px;
+  font-size: 12px;
+  font-weight: bold;
+}
+
+/* Responsive */
+@media (max-width: 768px) {
+  .toggle-buttons {
+    display: flex;
+    flex-direction: row;
+    gap: 8px;
+    
+  }
+  
+
+  .logo-html img {
+    width: 40px;
+    height: 40px;
+  }
+
+  .logo-name {
+    font-size: 10px;
+  }
+}
+
+@media (max-width: 768px) {
+  .toggle-buttons {
+    display: flex;
+    flex-direction: row;   /* ✅ keep row, not column */
+    gap: 8px;
+  }
+
+  .logo-html img {
+    width: 40px;
+    height: 40px;
+  }
+
+  .logo-name {
+    font-size: 10px;
+  }
+}
+@media (max-width: 370px) {
+  .logo-html img {
+    width: 35px;
+    height: 35px;
+  }
+
+  .logo-name {
+    font-size: 9px;
+  }
+
+  .toggle-btn {
+    padding: 3px 10px;
+    font-size: 11px;
+  }
+  .toggle-buttons {
+    display: flex;
+    flex-direction: row;   /* ✅ keep row, not column */
+    gap: 8px;
+  }
+
+  .logo-html img {
+    width: 40px;
+    height: 40px;
+  }
+
+  .logo-name {
+    font-size: 10px;
+  }
+}
+.z-n1v{
+  z-index: -1;
+  /* height: auto; */
+  width: 110px;
+  top: 50%;
+  left: 50%;
+  transform: (-50%,-50%);
+}
+.heading-wrapper{
+   display: inline-block ; 
+}
