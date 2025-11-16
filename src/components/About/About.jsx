@@ -11,7 +11,7 @@ export default function About() {
   const [active, setActive] = useState("skills");
 
   return (
-    <section>
+    <section className='m-auto skills-section'>
       <div className="container ">
         <div className='heading-wrapper d-flex flex-column position-relative align-items-center'>
         <h1 className=" mt-2 fw-bold skills-heading">
@@ -21,7 +21,7 @@ export default function About() {
         <img className='position-absolute z-n1v' src={icon} alt="vijay" />
         </div>
 
-        <div className="row row-content align-items-start justify-content-center mt-4 flex-sm-row flex-row">
+        <div className="row row-content align-items-start justify-content-center  flex-sm-row flex-row">
           
           {/* Paragraph + Toggle Buttons */}
           <div className="col-sm-5 d-flex flex-column justify-content-center align-items-center gap-6 mb-3 mb-sm-0 skill-paragraph">

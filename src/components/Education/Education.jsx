@@ -1,6 +1,7 @@
 import React from "react";
 import "./Education.css";
 import { FaGraduationCap } from "react-icons/fa";
+import icon from "../../assets/theme_pattern.svg";
 
 const Education = () => {
   const education = [
@@ -26,9 +27,17 @@ const Education = () => {
 
   return (
     <section className="education-section container" id="education">
-      <h2 className="gradient-text text-center mb-5 section-title">
+               <div className='heading-wrappere d-flex flex-column position-relative align-items-center'>
+                       <h1 className=" mt-2 fw-bold education-heading">
+                         <FaGraduationCap /> Education
+               
+                       </h1>
+                       <img className='position-absolute ' src={icon} alt="vijay" />
+                       </div>
+              
+              {/* <h2 className="gradient-text text-center mb-5 section-title">
         <FaGraduationCap /> Education
-      </h2>
+      </h2>    */}
 
       <div className="timeline">
         {education.map((edu, index) => (

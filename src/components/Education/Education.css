@@ -1,6 +1,22 @@
+
+.education-heading {
+  
+  font-size: 250%;
+  padding-top: 23px ;
+  padding-left: 50px;
+}
+.heading-wrappere img{
+   z-index: -1;
+  /* height: auto; */
+  width: 110px;
+  top: 50%;
+  left: 57%;
+  transform: (-50%,-50%);
+}
+
 .education-section {
-  min-height: 100vh;
-  padding-top: 90px;
+  /* min-height: 100vh; */
+  /* padding-top: 90px; */
   color: white;
 }
 
