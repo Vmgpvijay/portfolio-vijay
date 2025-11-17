@@ -19,7 +19,7 @@ const Education = () => {
     },
     {
       degree: "Secondary Schooling",
-      college: "ABC Matriculation Hr. Sec School",
+      college: "ABC Mat<FaGraduationCap />riculation Hr. Sec School",
       year: "2018 - 2019",
       grade: "Percentage: 90%",
     },
@@ -29,7 +29,7 @@ const Education = () => {
     <section className="education-section container" id="education">
                <div className='heading-wrappere d-flex flex-column position-relative align-items-center'>
                        <h1 className=" mt-2 fw-bold education-heading">
-                         <FaGraduationCap /> Education
+                        <FaGraduationCap></FaGraduationCap>  Education
                
                        </h1>
                        <img className='position-absolute ' src={icon} alt="vijay" />
