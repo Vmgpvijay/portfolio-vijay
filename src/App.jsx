@@ -6,6 +6,7 @@ import About from './components/About/About'
 import Myworks from './components/Myworks/Myworks'
 import Contact from './components/Contact/Contact'
 import Education from './components/Education/Education'
+import Resume from './components/Resume/Resume'
 
 function Layout() {
   return (
@@ -30,6 +31,8 @@ const router = createHashRouter([
       { path: "/myworks", element: <Myworks /> },
       {path: "/contact" , element: <Contact />},
       {path: "/Education" , element: <Education />},
+      { path: "/resume", element: <Resume /> },
+
     ],
   },
 ])

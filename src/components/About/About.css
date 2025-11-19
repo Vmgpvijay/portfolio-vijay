@@ -15,7 +15,7 @@
 .skills-heading{
   font-size: 250%;
   padding-top: 23px ;
-  padding-left: 50px;
+  /* padding-left: 50px; */
 }
 .skill-paragraph p {
   font-size: 14px;
@@ -165,7 +165,7 @@
   width: 110px;
   top: 50%;
   left: 50%;
-  transform: (-50%,-50%);
+  transform: translate(-20%,1%);
 }
 .heading-wrapper{
    display: inline-block ; 

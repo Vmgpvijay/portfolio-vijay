@@ -1,6 +1,8 @@
 import React from "react";
 import "./Home.css";
 import { motion } from "framer-motion";
+// import Resume from "../../assets/VIJAYVSOFTWAREDEVELOPER.pdf"
+import { NavLink } from "react-router-dom";
 import { FaLinkedin, FaGithub, FaWhatsapp } from "react-icons/fa";
 
 const Home = () => {
@@ -42,7 +44,7 @@ const Home = () => {
           animate={{ opacity: 1 }}
           transition={{ duration: 1, delay: 1.2 }}
         >
-          <button className="btn btn-custom">My Resume</button>
+          <NavLink to="/resume"><button className="btn btn-custom">My Resume</button></NavLink>
           <button className="btn btn-outline-custom">My Works</button>
         </motion.div>
 

@@ -11,13 +11,10 @@ export default function About() {
   const [active, setActive] = useState("skills");
 
   return (
-    <section className='m-auto skills-section'>
-      <div className="container ">
+    <section className='skills-section'>
+      <div className="container-fluid ">
         <div className='heading-wrapper d-flex flex-column position-relative align-items-center'>
-        <h1 className=" mt-2 fw-bold skills-heading">
-          My <span className="skills">Skills</span>
-
-        </h1>
+        <h1 className=" mt-2 fw-bold skills-heading mx-auto">My Skills</h1>
         <img className='position-absolute z-n1v' src={icon} alt="vijay" />
         </div>
 

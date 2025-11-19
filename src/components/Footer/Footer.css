@@ -1,6 +1,65 @@
-.footer{
-    margin: 50px 170px;
+.footer {
+  padding: 40px 20px;
+  background: #0f0f15;
+  color: #ffffff;
 }
-.footer-left p{
-    max-width: 400px;
+
+.footer-left img {
+  width: 120px;
+}
+
+.footer-left p {
+  margin-top: 10px;
+  font-size: 15px;
+  color: #bbbbbb;
+}
+
+/* Email input area */
+.input-box {
+  background: #1d1d25;
+  padding: 10px 15px;
+  border-radius: 30px;
+  gap: 10px;
+}
+
+.input-box input {
+  background: transparent;
+  border: none;
+  outline: none;
+  color: white;
+  width: 200px;
+  font-size: 14px;
+}
+
+.input-box img {
+  width: 20px;
+}
+
+/* Subscribe button */
+.subscribe-btn {
+  padding: 10px 25px;
+  background: linear-gradient(264deg, #df8908 -5.09%, #b415ff 106.28%);
+  border: none;
+  border-radius: 25px;
+  color: white;
+  cursor: pointer;
+  transition: 0.3s;
+}
+
+.subscribe-btn:hover {
+  transform: scale(1.1);
+}
+
+/* Footer bottom */
+.footer-bottom p {
+  font-size: 14px;
+  color: #aaaaaa;
+}
+
+/* Responsive */
+@media (max-width: 600px) {
+  .footer-top {
+    flex-direction: column;
+    gap: 20px;
+  }
 }
